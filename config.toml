@@ -1,0 +1,30 @@
+baseurl = "http://myawsteststaticsite.com"
+title = "My New Hugo Site"
+languageCode = "en-us"
+theme = "hugo-redlounge"
+
+[params]
+    sidebartitle = "My New Hugo Site"
+    sidebartagline = "just testing"
+    sidebarphoto = "/img/logo.png"
+
+[[menu.main]]
+
+    name = "test-section"
+
+    url = "/test-section"
+
+[[menu.social]]
+
+    pre = "<i class='fa fa-vk'></i>"
+
+    url = "https://vk.com"
+
+    identifier = "vkontakte"
+
+
+[[menu.footer]]
+
+    name = "test-section" 
+
+    url = "/test-section"
